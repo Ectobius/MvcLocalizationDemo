@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLocalization.Web", "MvcLocalization.Web\MvcLocalization.Web.csproj", "{5362730B-6C10-4882-8DFD-71637183FE5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLocalization.LocalizationResources", "MvcLocalization.LocalizationResources\MvcLocalization.LocalizationResources.csproj", "{5B8C1B0C-E708-4B0D-A2B0-1CB874C1665F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5362730B-6C10-4882-8DFD-71637183FE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5362730B-6C10-4882-8DFD-71637183FE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5362730B-6C10-4882-8DFD-71637183FE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5362730B-6C10-4882-8DFD-71637183FE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8C1B0C-E708-4B0D-A2B0-1CB874C1665F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8C1B0C-E708-4B0D-A2B0-1CB874C1665F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8C1B0C-E708-4B0D-A2B0-1CB874C1665F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8C1B0C-E708-4B0D-A2B0-1CB874C1665F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
