@@ -90,6 +90,9 @@ h5, h6 {
         text-decoration: none;
     }
 
+.text-right {
+    text-align: right;
+}
 
 /* main layout
 ----------------------------------------------------------*/
@@ -146,7 +149,7 @@ footer {
 /* login
 ----------------------------------------------------------*/
 #login {
-    display: block;
+    display: inline-block;
     font-size: .85em;
     margin: 0 0 10px;
     text-align: right;
@@ -169,6 +172,7 @@ footer {
 
     #login ul {
         margin: 0;
+        padding: 0;
     }
 
     #login li {
@@ -584,6 +588,25 @@ td {
 
 tr.pager td {
     padding: 0 0.25em 0 0;
+}
+
+
+
+/*
+    Localization
+    */
+#cultureSwitcher #cultures {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cultureSwitcher #cultures li {
+    display: inline;
+}
+
+#cultureSwitcher {
+    display: inline-block;
 }
 
 

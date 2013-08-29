@@ -182,6 +182,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CultureSwitcherController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -312,6 +313,10 @@
     <ProjectReference Include="..\MvcLocalization.LocalizationResources\MvcLocalization.LocalizationResources.csproj">
       <Project>{5b8c1b0c-e708-4b0d-a2b0-1cb874c1665f}</Project>
       <Name>MvcLocalization.LocalizationResources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcLocalization.Utils\MvcLocalization.Utils.csproj">
+      <Project>{36375824-8f45-444b-b982-ca738f4b5a05}</Project>
+      <Name>MvcLocalization.Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

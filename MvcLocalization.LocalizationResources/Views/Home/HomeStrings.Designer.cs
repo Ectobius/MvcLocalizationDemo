@@ -61,11 +61,29 @@ namespace MvcLocalization.LocalizationResources.Views.Home {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ASP.NET MVC localization demo.
+        /// </summary>
+        public static string AboutMessage {
+            get {
+                return ResourceManager.GetString("AboutMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to About.
+        /// </summary>
+        public static string AboutTitle {
+            get {
+                return ResourceManager.GetString("AboutTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home page.
         /// </summary>
-        public static string Title {
+        public static string IndexTitle {
             get {
-                return ResourceManager.GetString("Title", resourceCulture);
+                return ResourceManager.GetString("IndexTitle", resourceCulture);
             }
         }
     }

@@ -24,5 +24,26 @@ namespace MvcLocalization.Web
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
         }
+
+        public override string GetVaryByCustomString(HttpContext context, string custom)
+        {
+            if (custom.Equals("lang"))
+            {
+                string cultureName = "";
+                var cultureCookie = context.Request.Cookies[Utils.Constants.CultureCookieName];
+
+                if (cultureCookie != null)
+                {
+                    cultureName = cultureCookie.Value;
+                }
+                else if (context.Request.UserLanguages != null)
+                {
+                    cultureName = context.Request.UserLanguages[0];
+                }
+
+                return cultureName;
+            }
+            return base.GetVaryByCustomString(context, custom);
+        }
     }
 }

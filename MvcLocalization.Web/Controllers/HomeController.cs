@@ -3,22 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MvcLocalization.Utils;
 
 namespace MvcLocalization.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : LocalizationController
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-
             return View();
         }
 
+        [OutputCache(Duration = 86400, VaryByParam = "*")]
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
-
             return View();
         }
 

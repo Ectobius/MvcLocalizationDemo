@@ -15,7 +15,17 @@
                 <div class="float-left">
                     <p class="site-title">@Html.ActionLink(SharedStrings.LogoText, "Index", "Home")</p>
                 </div>
-                <div class="float-right">
+                <div class="float-right text-right">
+                    <section id="cultureSwitcher">
+                        <ul id="cultures">
+                            <li>
+                                <a href="@Url.Action("Switch", "CultureSwitcher", new { cultureName = "en-US" })">English</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Switch", "CultureSwitcher", new { cultureName = "ru-RU" })">Русский</a>
+                            </li>
+                        </ul>
+                    </section>
                     <section id="login">
                         @Html.Partial("_LoginPartial")
                     </section>

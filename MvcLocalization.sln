@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLocalization.Web", "MvcL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLocalization.LocalizationResources", "MvcLocalization.LocalizationResources\MvcLocalization.LocalizationResources.csproj", "{5B8C1B0C-E708-4B0D-A2B0-1CB874C1665F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLocalization.Utils", "MvcLocalization.Utils\MvcLocalization.Utils.csproj", "{36375824-8F45-444B-B982-CA738F4B5A05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{5B8C1B0C-E708-4B0D-A2B0-1CB874C1665F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B8C1B0C-E708-4B0D-A2B0-1CB874C1665F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B8C1B0C-E708-4B0D-A2B0-1CB874C1665F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36375824-8F45-444B-B982-CA738F4B5A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36375824-8F45-444B-B982-CA738F4B5A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36375824-8F45-444B-B982-CA738F4B5A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36375824-8F45-444B-B982-CA738F4B5A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
