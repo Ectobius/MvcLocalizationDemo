@@ -1,0 +1,48 @@
+﻿@using MvcLocalization.LocalizationResources.Views.Items
+@model MvcLocalization.Web.Models.Item
+
+@{
+    ViewBag.Title = ItemsStrings.DeleteTitle;
+}
+
+<h2>@ItemsStrings.DeleteTitle</h2>
+
+<h3>@ItemsStrings.DeleteConfirmationMessage</h3>
+<fieldset>
+    <legend>Item</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Weight)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Weight)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Price)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Price)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ProducedAt)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ProducedAt)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="@ItemsStrings.DeleteButtonText" /> |
+        @Html.ActionLink(ItemsStrings.BackToList, "Index")
+    </p>
+}

@@ -141,4 +141,7 @@
   <data name="NavigationHome" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="NavigationItems" xml:space="preserve">
+    <value>Items</value>
+  </data>
 </root>

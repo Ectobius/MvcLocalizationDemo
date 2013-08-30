@@ -117,31 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Login" xml:space="preserve">
-    <value>Войти</value>
+  <data name="FieldMustBeDate" xml:space="preserve">
+    <value>Поле должно быть датой.</value>
   </data>
-  <data name="LoginHello" xml:space="preserve">
-    <value>Привет</value>
+  <data name="FieldMustBeNumeric" xml:space="preserve">
+    <value>Поле должно быть числом.</value>
   </data>
-  <data name="LoginLogoff" xml:space="preserve">
-    <value>Выйти</value>
-  </data>
-  <data name="LoginRegister" xml:space="preserve">
-    <value>Зарегистрироваться</value>
-  </data>
-  <data name="LogoText" xml:space="preserve">
-    <value>ваш логотип тут</value>
-  </data>
-  <data name="NavigationAbout" xml:space="preserve">
-    <value>О сайте</value>
-  </data>
-  <data name="NavigationContact" xml:space="preserve">
-    <value>Контакты</value>
-  </data>
-  <data name="NavigationHome" xml:space="preserve">
-    <value>Домой</value>
-  </data>
-  <data name="NavigationItems" xml:space="preserve">
-    <value>Предметы</value>
+  <data name="PropertyValueInvalid" xml:space="preserve">
+    <value>Значение '{0}' не подходит для поля {1}.</value>
   </data>
 </root>

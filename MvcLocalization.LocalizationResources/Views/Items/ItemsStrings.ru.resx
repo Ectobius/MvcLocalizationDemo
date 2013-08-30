@@ -117,31 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Login" xml:space="preserve">
-    <value>Войти</value>
+  <data name="BackToList" xml:space="preserve">
+    <value>Назад к списку</value>
   </data>
-  <data name="LoginHello" xml:space="preserve">
-    <value>Привет</value>
+  <data name="CreateButtonText" xml:space="preserve">
+    <value>Создать</value>
   </data>
-  <data name="LoginLogoff" xml:space="preserve">
-    <value>Выйти</value>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Создать новый</value>
   </data>
-  <data name="LoginRegister" xml:space="preserve">
-    <value>Зарегистрироваться</value>
+  <data name="CreateTitle" xml:space="preserve">
+    <value>Создание предмета</value>
   </data>
-  <data name="LogoText" xml:space="preserve">
-    <value>ваш логотип тут</value>
+  <data name="DeleteButtonText" xml:space="preserve">
+    <value>Удалить</value>
   </data>
-  <data name="NavigationAbout" xml:space="preserve">
-    <value>О сайте</value>
+  <data name="DeleteConfirmationMessage" xml:space="preserve">
+    <value>Вы правда хотите удалить этот предмет?</value>
   </data>
-  <data name="NavigationContact" xml:space="preserve">
-    <value>Контакты</value>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>Удалить</value>
   </data>
-  <data name="NavigationHome" xml:space="preserve">
-    <value>Домой</value>
+  <data name="DeleteTitle" xml:space="preserve">
+    <value>Удаление предмета</value>
   </data>
-  <data name="NavigationItems" xml:space="preserve">
+  <data name="EditItem" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="EditTitle" xml:space="preserve">
+    <value>Редактирование предмета</value>
+  </data>
+  <data name="ItemsListTitle" xml:space="preserve">
     <value>Предметы</value>
+  </data>
+  <data name="SaveButtonText" xml:space="preserve">
+    <value>Сохранить</value>
   </data>
 </root>

@@ -609,6 +609,12 @@ tr.pager td {
     display: inline-block;
 }
 
+/*  
+    Items
+    */
+#itemsTable {
+    width: 100%;
+}
 
 /********************
 *   Mobile Styles   *

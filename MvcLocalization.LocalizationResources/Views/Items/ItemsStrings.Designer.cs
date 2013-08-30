@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MvcLocalization.LocalizationResources.Views.Shared {
+namespace MvcLocalization.LocalizationResources.Views.Items {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace MvcLocalization.LocalizationResources.Views.Shared {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class SharedStrings {
+    public class ItemsStrings {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal SharedStrings() {
+        internal ItemsStrings() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace MvcLocalization.LocalizationResources.Views.Shared {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MvcLocalization.LocalizationResources.Views.Shared.SharedStrings", typeof(SharedStrings).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MvcLocalization.LocalizationResources.Views.Items.ItemsStrings", typeof(ItemsStrings).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,83 +61,110 @@ namespace MvcLocalization.LocalizationResources.Views.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Log in.
+        ///   Looks up a localized string similar to Back to List.
         /// </summary>
-        public static string Login {
+        public static string BackToList {
             get {
-                return ResourceManager.GetString("Login", resourceCulture);
+                return ResourceManager.GetString("BackToList", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hello.
+        ///   Looks up a localized string similar to Create.
         /// </summary>
-        public static string LoginHello {
+        public static string CreateButtonText {
             get {
-                return ResourceManager.GetString("LoginHello", resourceCulture);
+                return ResourceManager.GetString("CreateButtonText", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Log off.
+        ///   Looks up a localized string similar to Create new.
         /// </summary>
-        public static string LoginLogoff {
+        public static string CreateNew {
             get {
-                return ResourceManager.GetString("LoginLogoff", resourceCulture);
+                return ResourceManager.GetString("CreateNew", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Register.
+        ///   Looks up a localized string similar to Create Item.
         /// </summary>
-        public static string LoginRegister {
+        public static string CreateTitle {
             get {
-                return ResourceManager.GetString("LoginRegister", resourceCulture);
+                return ResourceManager.GetString("CreateTitle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to your logo here.
+        ///   Looks up a localized string similar to Delete.
         /// </summary>
-        public static string LogoText {
+        public static string DeleteButtonText {
             get {
-                return ResourceManager.GetString("LogoText", resourceCulture);
+                return ResourceManager.GetString("DeleteButtonText", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About.
+        ///   Looks up a localized string similar to Are you sure you want to delete this?.
         /// </summary>
-        public static string NavigationAbout {
+        public static string DeleteConfirmationMessage {
             get {
-                return ResourceManager.GetString("NavigationAbout", resourceCulture);
+                return ResourceManager.GetString("DeleteConfirmationMessage", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Contact.
+        ///   Looks up a localized string similar to Delete.
         /// </summary>
-        public static string NavigationContact {
+        public static string DeleteItem {
             get {
-                return ResourceManager.GetString("NavigationContact", resourceCulture);
+                return ResourceManager.GetString("DeleteItem", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Home.
+        ///   Looks up a localized string similar to Delete Item.
         /// </summary>
-        public static string NavigationHome {
+        public static string DeleteTitle {
             get {
-                return ResourceManager.GetString("NavigationHome", resourceCulture);
+                return ResourceManager.GetString("DeleteTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit.
+        /// </summary>
+        public static string EditItem {
+            get {
+                return ResourceManager.GetString("EditItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit Item.
+        /// </summary>
+        public static string EditTitle {
+            get {
+                return ResourceManager.GetString("EditTitle", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Items.
         /// </summary>
-        public static string NavigationItems {
+        public static string ItemsListTitle {
             get {
-                return ResourceManager.GetString("NavigationItems", resourceCulture);
+                return ResourceManager.GetString("ItemsListTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string SaveButtonText {
+            get {
+                return ResourceManager.GetString("SaveButtonText", resourceCulture);
             }
         }
     }
