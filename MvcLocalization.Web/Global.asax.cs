@@ -8,6 +8,7 @@ using System.Web.Mvc;
 using System.Web.Mvc.Html;
 using System.Web.Optimization;
 using System.Web.Routing;
+using MvcLocalization.Utils;
 using MvcLocalization.Web.Models;
 
 namespace MvcLocalization.Web
@@ -31,6 +32,9 @@ namespace MvcLocalization.Web
 
             DefaultModelBinder.ResourceClassKey = "ErrorMessages";
             ClientDataTypeModelValidatorProvider.ResourceClassKey = "ErrorMessages";
+
+            ViewEngines.Engines.Remove(ViewEngines.Engines.FirstOrDefault(e => e is RazorViewEngine));
+            ViewEngines.Engines.Add(new RazorGlobalizationViewEngine());
         }
 
         public override string GetVaryByCustomString(HttpContext context, string custom)
