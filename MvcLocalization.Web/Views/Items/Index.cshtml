@@ -27,25 +27,29 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Weight)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Price)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ProducedAt)
-        </td>
-        <td>
-            @Html.ActionLink(ItemsStrings.EditItem, "Edit", new { id = item.Id }) |
-            @Html.ActionLink(ItemsStrings.DeleteItem, "Delete", new { id = item.Id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Weight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @item.ProducedAt.ToShortDateString()
+            </td>
+            <td>
+                @Html.ActionLink(ItemsStrings.EditItem, "Edit", new { id = item.Id }) |
+                @Html.ActionLink(ItemsStrings.DeleteItem, "Delete", new { id = item.Id }, new { @class = "delete-link" })
+            </td>
+        </tr>
+    }
 
 </table>
+
+@section Scripts {
+    <script src="~/Scripts/app/items.js"></script>
+}

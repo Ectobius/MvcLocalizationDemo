@@ -30,6 +30,7 @@ namespace MvcLocalization.Web
             Database.SetInitializer(new MvcLocalizationDbInitializer());
 
             DefaultModelBinder.ResourceClassKey = "ErrorMessages";
+            ClientDataTypeModelValidatorProvider.ResourceClassKey = "ErrorMessages";
         }
 
         public override string GetVaryByCustomString(HttpContext context, string custom)

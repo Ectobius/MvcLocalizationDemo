@@ -12,7 +12,9 @@ namespace MvcLocalization.Web
                         "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
-                        "~/Scripts/jquery-ui-{version}.js"));
+                        "~/Scripts/jquery-ui-{version}.js",
+                        "~/Scripts/jquery.ui/i18n/jquery.ui.datepicker-ru.js",
+                        "~/Scripts/jquery.ui/i18n/jquery.ui.datepicker-en-GB.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.unobtrusive*",
@@ -38,6 +40,15 @@ namespace MvcLocalization.Web
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/jquery.globalize").Include(
+                "~/Scripts/jquery.globalize/globalize.js",
+                "~/Scripts/jquery.globalize/cultures/globalize.culture.en-US.js",
+                "~/Scripts/jquery.globalize/cultures/globalize.culture.ru-RU.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/app").Include(
+                "~/Scripts/app/utils.js",
+                "~/Scripts/app/common.js"));
         }
     }
 }

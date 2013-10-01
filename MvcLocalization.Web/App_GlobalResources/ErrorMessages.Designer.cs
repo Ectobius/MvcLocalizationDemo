@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Field must be date.
+        ///   Looks up a localized string similar to The field {0} must be a date..
         /// </summary>
         internal static string FieldMustBeDate {
             get {
@@ -70,7 +70,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Field must be numeric..
+        ///   Looks up a localized string similar to The field {0} must be a number..
         /// </summary>
         internal static string FieldMustBeNumeric {
             get {

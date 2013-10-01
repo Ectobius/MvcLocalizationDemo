@@ -271,6 +271,12 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\app\common.js" />
+    <Content Include="Scripts\app\editItem.js" />
+    <Content Include="Scripts\app\items.js" />
+    <Content Include="Scripts\app\localizationSettings.en-US.js" />
+    <Content Include="Scripts\app\localizationSettings.ru-RU.js" />
+    <Content Include="Scripts\app\utils.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -340,6 +346,7 @@
     <Content Include="Views\Items\Create.cshtml" />
     <Content Include="Views\Items\Edit.cshtml" />
     <Content Include="Views\Items\Delete.cshtml" />
+    <Content Include="Views\Globalization\ru-RU\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

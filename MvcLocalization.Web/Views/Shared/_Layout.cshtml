@@ -1,4 +1,5 @@
 ﻿@using MvcLocalization.LocalizationResources.Views.Shared
+@using MvcLocalization.Utils;
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,8 +7,13 @@
         <title>@ViewBag.Title - My ASP.NET MVC Application</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
+        
+        @Html.MetaAcceptLanguage()
+
         @Styles.Render("~/Content/css")
+        @Styles.Render("~/Content/themes/base/css")
         @Scripts.Render("~/bundles/modernizr")
+        @Html.RenderForCurrentCulture("/Scripts/app/localizationSettings.js")
     </head>
     <body>
         <header>
@@ -55,6 +61,10 @@
         </footer>
 
         @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/jqueryval")
+        @Scripts.Render("~/bundles/jqueryui")
+        @Scripts.Render("~/bundles/jquery.globalize")
+        @Scripts.Render("~/bundles/app")
         @RenderSection("scripts", required: false)
     </body>
 </html>
